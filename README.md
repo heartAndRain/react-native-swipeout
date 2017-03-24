@@ -20,6 +20,8 @@ var Swipeout = require('react-native-swipeout')
 // Buttons
 var swipeoutBtns = [
   {
+    // must set width
+    width: 80,
     text: 'Button'
   }
 ]
@@ -51,6 +53,7 @@ sensitivity     | number | Yes      | 0         | change the sensitivity of gest
 
 Prop            | Type   | Optional | Default   | Description
 --------------- | ------ | -------- | --------- | -----------
+width           | number | No       | 0         | button width
 backgroundColor | string | Yes      | '#b6bec0' | background color
 color           | string | Yes      | '#ffffff' | text color
 component       | string | Yes      | null      | pass custom component to button
